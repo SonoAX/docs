@@ -119,5 +119,12 @@
       "linkedin": "https://linkedin.com/company/mintlify"
     }
   },
-  "description": "Wiki for my modrinth modpack"
+  "description": "Wiki for my modrinth modpack",
+  "background": {
+    "image": "/images/gradient-1767891761515.png",
+    "decoration": "gradient"
+  },
+  "appearance": {
+    "default": "system"
+  }
 }
