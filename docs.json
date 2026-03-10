@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "sequoia",
+  "theme": "willow",
   "name": "AX's QOL Pack Wiki",
   "colors": {
     "primary": "#a31515",
     "light": "#c90606",
     "dark": "#801414"
   },
-  "favicon": "/logo/skinmc-avatar.png",
+  "favicon": "/logo/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -83,10 +83,7 @@
       ]
     }
   },
-  "logo": {
-    "light": "/logo/skinmc-avatar.png",
-    "dark": "/logo/skinmc-avatar.png"
-  },
+  "logo": "/logo/favicon.png",
   "navbar": {
     "links": [
       {
