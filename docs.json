@@ -36,11 +36,13 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
+            "icon": "house-blank",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "modpack-install",
+              "development",
+              "welcome"
             ]
           },
           {
@@ -145,5 +147,9 @@
   },
   "interaction": {
     "drilldown": false
+  },
+  "banner": {
+    "content": "This wiki is still being written, expect imperfections!",
+    "dismissible": true
   }
 }
