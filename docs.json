@@ -9,6 +9,28 @@
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Get the modpack",
+          "icon": "arrow-down-to-square",
+          "color": {
+            "light": "#1bd96a",
+            "dark": "#1bd96a"
+          },
+          "href": "https://modrinth.com/modpack/axqol"
+        },
+        {
+          "anchor": "Ko-fi",
+          "icon": "coffee-pot",
+          "color": {
+            "light": "#ff5a16",
+            "dark": "#ff5a16"
+          },
+          "href": "https://ko-fi.com/sonoax"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -67,21 +89,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": "/logo/favicon.png",
   "navbar": {
