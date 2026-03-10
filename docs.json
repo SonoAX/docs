@@ -39,8 +39,8 @@
             "group": "Overview",
             "icon": "house-blank",
             "pages": [
-              "modpack-install",
-              "welcome"
+              "welcome",
+              "modpack-install"
             ]
           },
           {
