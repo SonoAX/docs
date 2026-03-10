@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
+  "theme": "maple",
   "name": "AX's QOL Pack Wiki",
   "colors": {
-    "primary": "#a31515",
-    "light": "#c90606",
-    "dark": "#801414"
+    "primary": "#a36015",
+    "light": "#c97806",
+    "dark": "#805114"
   },
   "favicon": "/logo/favicon.png",
   "navigation": {
@@ -118,12 +118,24 @@
   },
   "description": "Wiki for my modrinth modpack",
   "background": {
-    "decoration": "gradient"
+    "decoration": "grid"
   },
   "appearance": {
     "default": "system"
   },
   "fonts": {
     "family": "Poppins"
+  },
+  "styling": {
+    "latex": true
+  },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": false
   }
 }
