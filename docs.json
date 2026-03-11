@@ -34,14 +34,14 @@
     "tabs": [
       {
         "tab": "Wiki",
-        "hidden": true,
         "groups": [
           {
             "group": "Overview",
             "icon": "house-blank",
             "pages": [
               "welcome",
-              "modpack-install"
+              "modpack-install",
+              "disclamers"
             ]
           },
           {
