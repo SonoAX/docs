@@ -40,8 +40,8 @@
             "icon": "house-blank",
             "pages": [
               "welcome",
-              "modpack-install",
-              "disclamers"
+              "disclamers",
+              "modpack-install"
             ]
           },
           {
