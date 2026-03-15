@@ -45,10 +45,10 @@
             ]
           },
           {
-            "group": "Customization",
-            "hidden": true,
+            "group": "About",
+            "icon": "question",
             "pages": [
-              "essentials/settings",
+              "modlist",
               "essentials/navigation"
             ]
           }
