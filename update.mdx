@@ -1,5 +1,5 @@
 ---
-title: "How to update"
+title: "How to update | downgrade"
 icon: "arrows-rotate"
 tag: "tutorial"
 description: "Guide for updating and downgrading the modpack"
@@ -10,10 +10,63 @@ description: "Guide for updating and downgrading the modpack"
   ALWAYS make a backup before doing risky operations.
 </Warning>
 
-## Updating the modpack (Modrinth)
+## Updating | Downgrade the modpack (Modrinth)
 
 <Accordion title="Quick video tutorial">
   <Frame>
     <video src="/videos/change-version.mp4" controls={true} />
   </Frame>
 </Accordion>
+
+## Prerequisites
+
+Before starting, please make sure:
+
+- The [Modrinth App](https://modrinth.com/app) is installed and updated.
+- An instance of AXQOL is **already installed**. <Tooltip tip="Installation page" href="install">How to install →</Tooltip>
+- Minecraft is **closed**.
+
+If everything is good, then you can proceed.
+
+## Steps
+
+<Steps>
+  <Step title="Open the instance settings">
+    1. Launch the **Modrinth App**.
+    2. Go to the **Instances** tab.
+    3. Click the AX's QOL instance you want to update.
+    4. Click the **gear icon** (top right of the instance page).
+
+    <Info>
+      You may find two gear icons in the top right at this point. Any will work as long as it opens the Instance settings and not the Modrinth App settings.
+    </Info>
+  </Step>
+  <Step title="Open the version page">
+    1. In the sidebar of the menu that pops up, select "**Installation**".
+    2. Scroll a bit down until you locate the section that shows the current modpack version and the "**Change version**" button.
+  </Step>
+  <Step title="Choose target version">
+    1. Click on "**Change version**".
+    2. In the new popup that appears, make sure to click on "**Show incompatible**" to list all versions of the modpack, even older ones.
+    3. Choose the version number you want to use. Check the Modrinth project page for changelogs if needed.
+    4. In this version list:
+       - To **update**, select a **newer** version than your current one.
+       - To **downgrade**, select an **older** one.
+    5. Check that the chosen version matches the Minecraft version and loader you want to use.
+  </Step>
+  <Step title="Apply the change">
+    1. After selecting the version, click on "**Update to** [version name]" or "**Downgrade to** [version name]".
+    2. Wait for the Modrinth App to download the new version.
+  </Step>
+</Steps>
+
+At this point, launch the instance and check in-game if the version you selected is actually installed.
+
+## Troubleshooting
+
+- No versions shown / version missing\
+      Double check if "**Show incompatible**" is enabled in the version selector.
+- World does not load / Corrupted / Game crashes on world load
+
+      Try creating a new test world to see if the issue is world-specific.\
+      If the issue persist, switch back to the previous version with a backup or using the same             steps and restore your world backup.
