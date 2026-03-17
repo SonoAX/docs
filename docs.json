@@ -51,6 +51,13 @@
               "modlist",
               "essentials/navigation"
             ]
+          },
+          {
+            "group": "Community",
+            "icon": "handshake-angle",
+            "pages": [
+              "contribute"
+            ]
           }
         ]
       }
